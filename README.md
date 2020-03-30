@@ -42,6 +42,17 @@ Iteration: 2500 Loss: 0.1381329894065857 Accuracy 95.28
 Iteration: 3000 Loss: 0.09671976417303085 Accuracy 95.66
 ```
 
+
+### FeedForward (ReLU Activation, 2 Hidden Layer)
+```text
+Iteration: 500 Loss: 0.352767676115036 Accuracy 91.51
+Iteration: 1000 Loss: 0.28632643818855286 Accuracy 93.35
+Iteration: 1500 Loss: 0.1666916012763977 Accuracy 94.81
+Iteration: 2000 Loss: 0.16455471515655518 Accuracy 95.62
+Iteration: 2500 Loss: 0.04511427506804466 Accuracy 96.31
+Iteration: 3000 Loss: 0.19672651588916779 Accuracy 96.29
+```
+
 <!--![Figure_0.png](figures/Figure_0.png)  ![Figure_1.png](figures/Figure_1.png)-->
 
 <!--![Figure_2.png](figures/Figure_2.png) ![Figure_3.png](figures/Figure_3.png)-->
