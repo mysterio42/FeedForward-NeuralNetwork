@@ -7,24 +7,24 @@ class FeedForward(nn.Module):
         super(FeedForward, self).__init__()
 
         self.fc1 = nn.Linear(in_features=in_dim, out_features=hidden_dim)
-        self.relu1 = nn.ReLU()
+        self.tanh1 = nn.Tanh()
 
         self.fc2 = nn.Linear(in_features=hidden_dim, out_features=hidden_dim)
-        self.relu2 = nn.ReLU()
+        self.tanh2 = nn.Tanh()
 
         self.fc3 = nn.Linear(in_features=hidden_dim, out_features=hidden_dim)
-        self.relu3 = nn.ReLU()
+        self.tanh3 = nn.Tanh()
 
         self.fc4 = nn.Linear(in_features=hidden_dim,out_features=out_dim)
 
     def hidden_1_layer(self, x):
-        return self.relu1(self.fc1(x))
+        return self.tanh1(self.fc1(x))
 
     def hidden_2_layer(self, x):
-        return self.relu2(self.fc2(x))
+        return self.tanh2(self.fc2(x))
 
     def hidden_3_layer(self,x):
-        return self.relu3(self.fc3(x))
+        return self.tanh3(self.fc3(x))
 
     def readout_layer(self, x):
         return self.fc4(x)

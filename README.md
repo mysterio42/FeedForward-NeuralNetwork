@@ -63,6 +63,16 @@ Iteration: 2500 Loss: 0.10752706229686737 Accuracy 96.77
 Iteration: 3000 Loss: 0.06506586819887161 Accuracy 96.9
 ```
 
+### FeedForward (Tanh Activation, 3 Hidden Layer)
+```text
+Iteration: 500 Loss: 0.4324292242527008 Accuracy 90.96
+Iteration: 1000 Loss: 0.41148024797439575 Accuracy 93.39
+Iteration: 1500 Loss: 0.14122991263866425 Accuracy 94.62
+Iteration: 2000 Loss: 0.1583038866519928 Accuracy 95.23
+Iteration: 2500 Loss: 0.13420075178146362 Accuracy 95.9
+Iteration: 3000 Loss: 0.08598127216100693 Accuracy 96.48
+```
+
 <!--![Figure_0.png](figures/Figure_0.png)  ![Figure_1.png](figures/Figure_1.png)-->
 
 <!--![Figure_2.png](figures/Figure_2.png) ![Figure_3.png](figures/Figure_3.png)-->
