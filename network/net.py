@@ -8,14 +8,14 @@ class FeedForward(nn.Module):
 
         self.fc1 = nn.Linear(in_features=in_dim, out_features=hidden_dim)
 
-        self.sigmoid = nn.Sigmoid()
+        self.tanh = nn.Tanh()
 
         self.fc2 = nn.Linear(in_features=hidden_dim, out_features=out_dim)
 
     def forward(self, x):
         out = self.fc1(x)
 
-        out = self.sigmoid(out)
+        out = self.tanh(out)
 
         out = self.fc2(out)
 

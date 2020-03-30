@@ -21,6 +21,17 @@ Iteration: 3000 Loss: 0.19790974259376526 Accuracy 92.04
 ```
 
 
+### FeedForward (Tanh Activation)
+```text
+Iteration: 500 Loss: 0.30365613102912903 Accuracy 90.9
+Iteration: 1000 Loss: 0.31436046957969666 Accuracy 92.35
+Iteration: 1500 Loss: 0.20190291106700897 Accuracy 93.31
+Iteration: 2000 Loss: 0.1524360626935959 Accuracy 93.99
+Iteration: 2500 Loss: 0.15164406597614288 Accuracy 94.61
+Iteration: 3000 Loss: 0.10918890684843063 Accuracy 95.16
+```
+
+
 <!--![Figure_0.png](figures/Figure_0.png)  ![Figure_1.png](figures/Figure_1.png)-->
 
 <!--![Figure_2.png](figures/Figure_2.png) ![Figure_3.png](figures/Figure_3.png)-->
